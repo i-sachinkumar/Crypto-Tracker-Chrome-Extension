@@ -1,0 +1,48 @@
+body{
+  font-family: "Montserrat";
+  font-weight: 300;
+  background-color: #012970;
+  text-align: center;
+}
+
+.heading{
+  color: #F2F5FC;
+}
+
+.live{
+  color: #F50707;
+  font-size: 1.2rem;
+}
+
+#live-price{
+  padding: 40px 45px;
+}
+
+.card-header{
+  background-color: #5472FF;
+}
+
+.card-name{
+  color: #F2F5FC;
+  font-size: 1.5rem;
+}
+
+.column{
+  padding: 3% 2%;
+}
+
+.blink {
+  animation: blink 1.5s steps(1, end) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
